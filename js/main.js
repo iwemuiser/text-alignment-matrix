@@ -63,8 +63,8 @@ function MatrixViewer(vm){
     this.init = function(){
     
         var margin = {top: 80, right: 0, bottom: 10, left: 80},
-            width = 800,
-            height = 800;
+            width = 1000,
+            height = 1000;
 
         var x = d3.scale.ordinal().rangeBands([0, width]);
         var y = d3.scale.ordinal().rangeBands([0, height]);
